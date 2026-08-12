@@ -27,10 +27,11 @@ Pour pouvoir compiler et exécuter ce projet, vous devez avoir **Rust** et **Car
   ```bash
   curl --proto '=https' --tlsv1.2 -sSf [https://sh.rustup.rs](https://sh.rustup.rs) | sh
   source "$HOME/.cargo/env"
+  rustc main.rs
 
 
 ###  📖 Utilisation
-Une fois le programme main2 lancé, 5 threads serveurs démarreront en arrière-plan. Vous pourrez saisir vos commandes directement dans le terminal.
+Une fois le programme main lancé, 5 threads serveurs démarreront en arrière-plan. Vous pourrez saisir vos commandes directement dans le terminal.
 (dans le code, le nombre de thread est de 5 et le stock est de 100.
 On peut modifier ces valeurs en les changeant dans les lignes avec le commentaire //modifiable)
 
