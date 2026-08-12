@@ -26,3 +26,13 @@ Pour pouvoir compiler et exécuter ce projet, vous devez avoir **Rust** et **Car
 * **Linux / macOS :**
   ```bash
   curl --proto '=https' --tlsv1.2 -sSf [https://sh.rustup.rs](https://sh.rustup.rs) | sh
+  source "$HOME/.cargo/env"
+
+
+###  📖 Utilisation
+Une fois le programme main2 lancé, 5 threads serveurs démarreront en arrière-plan. Vous pourrez saisir vos commandes directement dans le terminal.
+(dans le code, le nombre de thread est de 5 et le stock est de 100.
+On peut modifier ces valeurs en les changeant dans les lignes avec le commentaire //modifiable)
+
+Format des commandes :
+Saisissez la durée du traitement (en secondes) suivie de la quantité d'articles à retirer, séparées par un espace :
